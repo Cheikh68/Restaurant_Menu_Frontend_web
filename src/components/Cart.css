@@ -1,0 +1,140 @@
+/*BOTH CARTS*/
+#your-cart {
+  color: red;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 30px;
+  margin-left: 25px;
+}
+
+#empty-cart-display,
+#full-cart-display {
+  background-color: white;
+  padding-top: 20px;
+  width: 100%;
+}
+
+/*EMPTY CART*/
+#empty-cart-display {
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+#cart-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+/*FULL CART*/
+#total-line {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 45px;
+  padding-top: 15px;
+}
+
+#added-items {
+  color: burlywood;
+  text-align: center;
+}
+
+#full-cart-display {
+  padding-bottom: 15px;
+}
+
+#full-cart-display #your-cart {
+  padding-bottom: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 30px;
+  line-height: 30px;
+}
+
+#total-number {
+  text-align: left;
+  font-size: larger;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+#total {
+  margin-left: 30px;
+}
+
+.fullWidthButton {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 16px;
+  width: 98%;
+  margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#popup-div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  width: 30%;
+}
+
+#popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 998;
+}
+
+.check {
+  height: 20px;
+  width: 8px;
+  border-bottom: 10px solid green;
+  border-right: 10px solid green;
+  transform: rotate(45deg);
+  margin: 10px;
+}
+
+#order {
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+#confirmed {
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+#hope-you-enjoyed {
+  color: rgb(165, 133, 123);
+  margin-bottom: 20px;
+}
+
+#last-button {
+  margin-top: 10px;
+}

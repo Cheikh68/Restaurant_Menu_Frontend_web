@@ -1,0 +1,27 @@
+hr.solid {
+  border-top: 3px solid #bbb;
+  margin-right: 30px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* optional, ensures vertical alignment */
+  width: 100%;
+}
+
+.unit {
+  color: red;
+}
+
+.unit-price {
+  color: rgb(165, 133, 123);
+}
+
+.total-price {
+  color: rgb(138, 103, 94);
+}
+
+#left {
+  text-align: left;
+}
